@@ -3,7 +3,7 @@ const app = express();
 app.use(express.json());
 
 const VERIFY_TOKEN = 'mybot123';
-const MAKE_WEBHOOK_URL = 'https://hook.us2.make.com/x1amyisard3ektrw6asghb2lanp4fert';
+const MAKE_WEBHOOK_URL = 'https://hook.us2.make.com/mhs1zvotl3sokaxbqr5o1ageju8hvjpi';
 
 app.get('/webhook', (req, res) => {
   const mode = req.query['hub.mode'];
